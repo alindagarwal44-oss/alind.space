@@ -1,0 +1,15 @@
+/* alind.space — the loader on its own: the fonts and the town's hairline classes it draws with (from the portfolio's
+   globals.css), the page black */
+@font-face { font-family: "Helvetica Now Micro"; src: url("fonts/HelveticaNowMicro-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Manolo Mono"; src: url("fonts/ManoloMono-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+:root { --font-sora: "Sora"; --sans: "Sora", Helvetica, Arial, sans-serif; --mono: "Manolo Mono", ui-monospace, monospace; color-scheme: dark; }
+html, body { margin: 0; height: 100%; background: #060606; overflow: hidden; }
+#root { position: fixed; inset: 0; }
+.ldr { position: absolute; inset: 0; width: 100%; height: 100%; display: block; shape-rendering: geometricPrecision; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.hl-sil, .hl-lo { fill: #08090a; stroke: #5b5d64; stroke-width: 0.9; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.hl-lo { stroke: #29292d; fill: none; }
+.hl-nf { fill: none; }
+.hl-rig { fill: none; stroke: #5d6067; stroke-width: 0.7; vector-effect: non-scaling-stroke; stroke-linecap: round; }
+.hl-rope { fill: none; stroke: #74777e; stroke-width: 0.6; vector-effect: non-scaling-stroke; }
+.iso-tool { fill: none; stroke: #a8acb3; stroke-width: 1.1; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.iso-tool-hd { fill: none; stroke: #cfd2d7; stroke-width: 2.4; vector-effect: non-scaling-stroke; }
